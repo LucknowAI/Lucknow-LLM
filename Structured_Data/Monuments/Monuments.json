@@ -1,35 +1,46 @@
 [
   {
-    "text": "<start_of_turn>user # What are some of the notable historical monuments in Lucknow? <end_of_turn><start_of_turn>model # Some notable historical monuments in Lucknow include Bara Imambara, Chhota Imambara, Chhatar Manzil, Kaiserbagh Palace, Husainabad Clock Tower, Constantania House, Rumi Darwaza, The British Residency, Dilkusha Kothi, and the tomb of Saadat Ali Khan and Khurshid Zadi. <end_of_turn>"
+    "question": "What are some of the notable historical monuments in Lucknow?",
+    "answer": "Some notable historical monuments in Lucknow include Bara Imambara, Chhota Imambara, Chhatar Manzil, Kaiserbagh Palace, Husainabad Clock Tower, Constantania House, Rumi Darwaza, The British Residency, Dilkusha Kothi, and the tomb of Saadat Ali Khan and Khurshid Zadi."
   },
   {
-    "text": "<start_of_turn>user # Who commissioned the construction of Bara Imambara, and what unique features does it possess? <end_of_turn><start_of_turn>model # Bara Imambara was commissioned by Nawab Asaf-ud-Daula and features a baoli (stepwell) and a labyrinth known as bhool bhulaiyya, making it a remarkable architectural marvel in Lucknow. <end_of_turn>"
+    "question": "Who commissioned the construction of Bara Imambara, and what unique features does it possess?",
+    "answer": "Bara Imambara was commissioned by Nawab Asaf-ud-Daula and features a baoli (stepwell) and a labyrinth known as bhool bhulaiyya, making it a remarkable architectural marvel in Lucknow."
   },
   {
-    "text": "<start_of_turn>user # What is the significance of Chhota Imambara in Lucknow's architectural landscape? <end_of_turn><start_of_turn>model # Chhota Imambara is significant for its intricate craftsmanship, featuring a gilded dome and minarets. It serves as a mausoleum for Muhammad Ali Shah and his family, adding to the architectural richness of Lucknow. <end_of_turn>"
+    "question": "What is the significance of Chhota Imambara in Lucknow's architectural landscape?",
+    "answer": "Chhota Imambara is significant for its intricate craftsmanship, featuring a gilded dome and minarets. It serves as a mausoleum for Muhammad Ali Shah and his family, adding to the architectural richness of Lucknow."
   },
   {
-    "text": "<start_of_turn>user # Describe the architectural style and location of Chhatar Manzil in Lucknow. <end_of_turn><start_of_turn>model # Chhatar Manzil in Lucknow is situated by the banks of River Gomti and exudes grandeur with its Indo-European-Nawabi architectural style, offering a glimpse into the opulent lifestyle of Awadh kings. <end_of_turn>"
+    "question": "Describe the architectural style and location of Chhatar Manzil in Lucknow.",
+    "answer": "Chhatar Manzil in Lucknow is situated by the banks of River Gomti and exudes grandeur with its Indo-European-Nawabi architectural style, offering a glimpse into the opulent lifestyle of Awadh kings."
   },
   {
-    "text": "<start_of_turn>user # Who constructed the Kaiserbagh Palace, and what features make it remarkable? <end_of_turn><start_of_turn>model # Kaiserbagh Palace was constructed by Wajid Ali Shah and boasts the magnificent Baradari adorned with silver embellishments, adding to its architectural splendor in Lucknow. <end_of_turn>"
+    "question": "Who constructed the Kaiserbagh Palace, and what features make it remarkable?",
+    "answer": "Kaiserbagh Palace was constructed by Wajid Ali Shah and boasts the magnificent Baradari adorned with silver embellishments, adding to its architectural splendor in Lucknow."
   },
   {
-    "text": "<start_of_turn>user # What are the architectural influences behind Husainabad Clock Tower in Lucknow? <end_of_turn><start_of_turn>model # Husainabad Clock Tower in Lucknow boasts Victorian and Gothic influences, reminiscent of London's Big Ben, making it one of India's tallest clock towers and a notable landmark in the city. <end_of_turn>"
+    "question": "What are the architectural influences behind Husainabad Clock Tower in Lucknow?",
+    "answer": "Husainabad Clock Tower in Lucknow boasts Victorian and Gothic influences, reminiscent of London's Big Ben, making it one of India's tallest clock towers and a notable landmark in the city."
   },
   {
-    "text": "<start_of_turn>user # What makes Constantania House in Lucknow unique in terms of architectural fusion? <end_of_turn><start_of_turn>model # Constantania House in Lucknow is a fusion of architectural styles, drawing countless visitors to its captivating ambiance within La Martiniere College, showcasing the city's architectural diversity. <end_of_turn>"
+    "question": "What makes Constantania House in Lucknow unique in terms of architectural fusion?",
+    "answer": "Constantania House in Lucknow is a fusion of architectural styles, drawing countless visitors to its captivating ambiance within La Martiniere College, showcasing the city's architectural diversity."
   },
   {
-    "text": "<start_of_turn>user # What historical significance does Rumi Darwaza hold in Lucknow? <end_of_turn><start_of_turn>model # Rumi Darwaza in Lucknow symbolizes the city's rich heritage with its Mughal architectural splendor and originally marked the entrance to Old Lucknow, serving as a testament to its historical legacy. <end_of_turn>"
+    "question": "What historical significance does Rumi Darwaza hold in Lucknow?",
+    "answer": "Rumi Darwaza in Lucknow symbolizes the city's rich heritage with its Mughal architectural splendor and originally marked the entrance to Old Lucknow, serving as a testament to its historical legacy."
   },
   {
-    "text": "<start_of_turn>user # How does The British Residency contribute to understanding Lucknow's colonial past? <end_of_turn><start_of_turn>model # The British Residency in Lucknow was built for the British Resident General and offers insight into the city's colonial past, serving as a historical landmark that reflects the colonial architecture prevalent during that era. <end_of_turn>"
+    "question": "How does The British Residency contribute to understanding Lucknow's colonial past?",
+    "answer": "The British Residency in Lucknow was built for the British Resident General and offers insight into the city's colonial past, serving as a historical landmark that reflects the colonial architecture prevalent during that era."
   },
   {
-    "text": "<start_of_turn>user # What architectural elements characterize Dilkusha Kothi in Lucknow? <end_of_turn><start_of_turn>model # Dilkusha Kothi in Lucknow is adorned in English Baroque style and evokes nostalgia with its remaining towers and garden surroundings, showcasing a blend of architectural elements that contribute to its historical charm. <end_of_turn>"
+    "question": "What architectural elements characterize Dilkusha Kothi in Lucknow?",
+    "answer": "Dilkusha Kothi in Lucknow is adorned in English Baroque style and evokes nostalgia with its remaining towers and garden surroundings, showcasing a blend of architectural elements that contribute to its historical charm."
   },
   {
-    "text": "<start_of_turn>user # What is the significance of the tomb of Saadat Ali Khan and Khurshid Zadi in Lucknow's architectural heritage? <end_of_turn><start_of_turn>model # The tomb of Saadat Ali Khan and Khurshid Zadi in Lucknow stands as a testament to their legacy, showcasing intricate architecture and serene gardens, adding to the architectural richness of the city's historical landmarks. <end_of_turn>"
+    "question": "What is the significance of the tomb of Saadat Ali Khan and Khurshid Zadi in Lucknow's architectural heritage?",
+    "answer": "The tomb of Saadat Ali Khan and Khurshid Zadi in Lucknow stands as a testament to their legacy, showcasing intricate architecture and serene gardens, adding to the architectural richness of the city's historical landmarks."
   }
 ]
