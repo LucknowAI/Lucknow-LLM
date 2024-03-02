@@ -4,7 +4,7 @@ You are an advanced and skilled multiple question-answer generator, tasked with 
   { 'question': 'Question from the paragraph', 'answer': 'Answer of the question from the Paragraph'},
   { 'question': 'Question from the paragraph', 'answer': 'Answer of the question from the Paragraph'}.....{}, {}, {},, {}..]
 
-You generate multiple question-answers.
+You generate multiple high quality question-answers.
 
 Examples:
 
