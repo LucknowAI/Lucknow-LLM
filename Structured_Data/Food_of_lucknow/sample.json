@@ -1,14 +1,18 @@
 [
   {
-    "text": "<start_of_turn>user # What makes Lucknowi biryani unique? <end_of_turn><start_of_turn>model # Lucknowi biryani is unique for its slow-cooking method, which includes rice with spices, vegetables, yoghurt, mint leaves, fried onions, topped with fried potatoes, coriander leaves, and nuts. It is served hot with raita or gravy, and there are special non-vegetarian varieties with marinated chicken or mutton. <end_of_turn>"
+    "question": "What makes Lucknowi biryani unique?",
+    "answer": "Lucknowi biryani is unique for its slow-cooking method, which includes rice with spices, vegetables, yoghurt, mint leaves, fried onions, topped with fried potatoes, coriander leaves, and nuts. It is served hot with raita or gravy, and there are special non-vegetarian varieties with marinated chicken or mutton."
   },
   {
-    "text": "<start_of_turn>user # Where can the best biryani in Lucknow be found? <end_of_turn><start_of_turn>model # The best biryani in Lucknow can be found at popular street food joints, known for serving fine biryanis at pocket-friendly rates. <end_of_turn>"
+    "question": "Where can the best biryani in Lucknow be found?",
+    "answer": "The best biryani in Lucknow can be found at popular street food joints, known for serving fine biryanis at pocket-friendly rates."
   },
   {
-    "text": "<start_of_turn>user # What are some varieties of Lucknowi biryani? <end_of_turn><start_of_turn>model # Varieties of Lucknowi biryani include butter chicken biryani, seekh kebab biryani, sufiyani chicken biryani, Hyderabadi chicken biryani, veg handi dum biryani, paneer biryani, and veg kofta biryani. <end_of_turn>"
+    "question": "What are some varieties of Lucknowi biryani?",
+    "answer": "Varieties of Lucknowi biryani include butter chicken biryani, seekh kebab biryani, sufiyani chicken biryani, Hyderabadi chicken biryani, veg handi dum biryani, paneer biryani, and veg kofta biryani."
   },
   {
-    "text": "<start_of_turn>user # Is Lucknowi biryani spicy? <end_of_turn><start_of_turn>model # Yes, Lucknowi biryani can be spicy. However, for those sensitive to spicy foods, it's possible to order biryani with medium or less spice. <end_of_turn>"
+    "question": "Is Lucknowi biryani spicy?",
+    "answer": "Yes, Lucknowi biryani can be spicy. However, for those sensitive to spicy foods, it's possible to order biryani with medium or less spice."
   }
 ]
