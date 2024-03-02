@@ -13,7 +13,7 @@ class TrainDataCreator:
         pass
 
     def get_prompt(self):
-        with open('prompt_text.txt', 'r') as f:
+        with open('prompt.txt', 'r') as f:
             prompt_data = f.read()
         return prompt_data
 
