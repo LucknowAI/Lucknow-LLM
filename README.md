@@ -5,6 +5,11 @@
 We are planning to collect these categories of data (not limited to):</p>
 
 <ul>
+
+  <li><strong>Overview of Lucknow:</strong> A comprehensive introduction to Lucknow, covering its history, culture, and key characteristics.</li>
+  <li><strong>Food of Lucknow:</strong> An exploration of Lucknow's culinary scene, detailing its diverse dishes, renowned restaurants, and must-visit food places.</li>
+  <li><strong>Tourism in Lucknow:</strong> A guide to Lucknow's tourist attractions, including historical sites, cultural landmarks, and recreational spots.</li>
+  
   <li><strong>History of Lucknow:</strong> Detailed information on historical events, significant figures, and the architectural heritage of Lucknow.</li>
 
   <li><strong>Cultural Festivals of Lucknow:</strong> Information on local festivals, celebrations, and cultural events that take place throughout the year.</li>
