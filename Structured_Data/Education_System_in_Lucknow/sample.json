@@ -1,20 +1,26 @@
 [
   {
-    "text": "<start_of_turn>user # What is Babu Banarasi Das University also known as? <end_of_turn><start_of_turn>model # Babu Banarasi Das University is also known as BBD University. <end_of_turn>"
+    "question": "What is Babu Banarasi Das University also known as?",
+    "answer": "Babu Banarasi Das University is also known as BBD University."
   },
   {
-    "text": "<start_of_turn>user # Where is the main campus of BBD University located? <end_of_turn><start_of_turn>model # The main campus of BBD University is located in Lucknow, Uttar Pradesh, India. <end_of_turn>"
+    "question": "Where is the main campus of BBD University located?",
+    "answer": "The main campus of BBD University is located in Lucknow, Uttar Pradesh, India."
   },
   {
-    "text": "<start_of_turn>user # Who established BBD University and in which year? <end_of_turn><start_of_turn>model # BBD University was established by Akhilesh Das in 2010. <end_of_turn>"
+    "question": "Who established BBD University and in which year?",
+    "answer": "BBD University was established by Akhilesh Das in 2010."
   },
   {
-    "text": "<start_of_turn>user # After whom is BBD University named? <end_of_turn><start_of_turn>model # BBD University is named after Babu Banarasi Das, the father of Akhilesh Das and a former Chief Minister of Uttar Pradesh. <end_of_turn>"
+    "question": "After whom is BBD University named?",
+    "answer": "BBD University is named after Babu Banarasi Das, the father of Akhilesh Das and a former Chief Minister of Uttar Pradesh."
   },
   {
-    "text": "<start_of_turn>user # How was BBD University incepted? <end_of_turn><start_of_turn>model # BBD University was incepted by an Act (No. 25 of 2010) of State Legislature of Uttar Pradesh as a State Private University. <end_of_turn>"
+    "question": "How was BBD University incepted?",
+    "answer": "BBD University was incepted by an Act (No. 25 of 2010) of State Legislature of Uttar Pradesh as a State Private University."
   },
   {
-    "text": "<start_of_turn>user # What authority empowered BBD University to award degrees? <end_of_turn><start_of_turn>model # The UGC empowered BBD University to award degrees under section 22 of the UGC Act, 1956, via letter no 8-30/2010(CPP-I/PU) dated 17 February 2011. <end_of_turn>"
+    "question": "What authority empowered BBD University to award degrees?",
+    "answer": "The UGC empowered BBD University to award degrees under section 22 of the UGC Act, 1956, via letter no 8-30/2010(CPP-I/PU) dated 17 February 2011."
   }
 ]
