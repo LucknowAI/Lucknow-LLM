@@ -1,5 +1,7 @@
 <h1>Lucknow-LLM-data</h1>
-<p><strong>Collecting data for Building Lucknow's first LLM</strong><br>
+
+## Collecting data for Building Lucknow's first LLM
+
 We are planning to collect these categories of data (not limited to):</p>
 
 <ul>
