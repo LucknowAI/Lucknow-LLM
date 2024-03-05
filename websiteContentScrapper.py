@@ -55,6 +55,6 @@ articleExtracts = extractContentRelatedToLucknow() ## Recommended For better con
 print("Enter file name for extracted data (eg: myFile): ", end="")
 extractFileName = str(input())
 
-with open( "./Unstructured_Data/"+extractFileName+".txt", "w", encoding= "utf-8") as fl:
+with open( "./Unstructured_data/"+extractFileName+".txt", "w", encoding= "utf-8") as fl:
     for items in articleExtracts:
         fl.write( items + "\n" )
