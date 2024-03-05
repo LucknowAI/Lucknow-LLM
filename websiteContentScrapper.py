@@ -1,8 +1,8 @@
 from bs4 import BeautifulSoup
-# import lxml
 import requests
 
-# replace string with your target website's link
+### Program will
+
 # websiteToScrap = "https://www.clubmahindra.com/blog/stories/10-must-visit-architectural-marvels-in-lucknow"
 print("Paste website link: ", end= "")
 websiteToScrap = str(input())
@@ -35,7 +35,24 @@ def extractContentRelatedToLucknow():
 
     return article_texts
 
-articleExtracts = extractContentRelatedToLucknow()
+
+# extracts content all the content without any filter ( except line that is at least 40 characters long )
+# extracted content contains on average 30% unrelated data like ads, disclaimers, CTO, etc
+def extractContentUnfiltered():
+    article_texts = []
+    for article_tag in articles:
+        text = article_tag.getText()
+
+        if text.__len__() > 40:
+            article_texts.append(text)
+
+    return article_texts
+
+
+## Select any one method of extraction ( just uncomment req. one and comment other one )
+#
+articleExtracts = extractContentUnfiltered()
+# articleExtracts = extractContentRelatedToLucknow()
 
 print("Enter file name for extracted data (eg: myFile): ", end="")
 extractFileName = str(input())
