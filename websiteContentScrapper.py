@@ -3,7 +3,9 @@ from bs4 import BeautifulSoup
 import requests
 
 # replace string with your target website's link
-websiteToScrap = "https://www.clubmahindra.com/blog/stories/10-must-visit-architectural-marvels-in-lucknow"
+# websiteToScrap = "https://www.clubmahindra.com/blog/stories/10-must-visit-architectural-marvels-in-lucknow"
+print("Paste website link: ", end= "")
+websiteToScrap = str(input())
 
 ## Some websites to test scrapping
 # "https://www.voguebusiness.com/beauty/why-indias-beauty-market-is-turning-heads")
@@ -35,7 +37,7 @@ def extractContentRelatedToLucknow():
 
 articleExtracts = extractContentRelatedToLucknow()
 
-print("Enter file name for extracted data (eg: myFile): ")
+print("Enter file name for extracted data (eg: myFile): ", end="")
 extractFileName = str(input())
 
 with open( "./Unstructured_Data/"+extractFileName+".txt", "w", encoding= "utf-8") as fl:
