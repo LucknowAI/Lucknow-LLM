@@ -1,19 +1,17 @@
 from bs4 import BeautifulSoup
 import requests
 
-### Program will
+###
+# Program will ask for link of target webpage, will extract content and then it will ask for the file name to svae with
+# then it will save the file to the "./Unstructured_data/<filename>.txt" directory with given file name and .txt format
+###
 
-# websiteToScrap = "https://www.clubmahindra.com/blog/stories/10-must-visit-architectural-marvels-in-lucknow"
 print("Paste website link: ", end= "")
 websiteToScrap = str(input())
 
-## Some websites to test scrapping
-# "https://www.voguebusiness.com/beauty/why-indias-beauty-market-is-turning-heads")
-# "https://www.britannica.com/place/Lucknow")
-
 response = requests.get(websiteToScrap)
-yc_webpage = response.text
-soup = BeautifulSoup(yc_webpage, "html.parser")
+webPage = response.text
+soup = BeautifulSoup(webPage, "html.parser")
 articles = soup.find_all(name="p")
 
 # extracts content that is very related to lucknow so at least contains one of following words( to reduce unrelated data ):
@@ -51,8 +49,8 @@ def extractContentUnfiltered():
 
 ## Select any one method of extraction ( just uncomment req. one and comment other one )
 #
-articleExtracts = extractContentUnfiltered()
-# articleExtracts = extractContentRelatedToLucknow()
+# articleExtracts = extractContentUnfiltered()
+articleExtracts = extractContentRelatedToLucknow() ## Recommended For better content
 
 print("Enter file name for extracted data (eg: myFile): ", end="")
 extractFileName = str(input())
@@ -60,6 +58,3 @@ extractFileName = str(input())
 with open( "./Unstructured_Data/"+extractFileName+".txt", "w", encoding= "utf-8") as fl:
     for items in articleExtracts:
         fl.write( items + "\n" )
-
-# for items in articleExtracts:
-#     print(items)
