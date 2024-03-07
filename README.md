@@ -1,5 +1,13 @@
 <h1>Lucknow-LLM-data</h1>
 
+## Top Contributors
+
+<a href="https://github.com/LucknowAI/Lucknow-LLM-data/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LucknowAI/Lucknow-LLM-data" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
 ## Collecting data for Building Lucknow's first LLM
 
 We are planning to collect these categories of data (not limited to):</p>
