@@ -44,3 +44,11 @@ We are planning to collect these categories of data (not limited to):</p>
 
   <li><strong>Lucknow's Cuisine Varieties Beyond the Basics:</strong> Exploring lesser-known dishes, street food culture, and culinary traditions unique to Lucknow.</li>
 </ul>
+
+
+
+# Websites to scrape
+
+<li><strong>Wikipedia Lucknow</li>
+<li><strong>https://uptourism.gov.in/</li>
+
