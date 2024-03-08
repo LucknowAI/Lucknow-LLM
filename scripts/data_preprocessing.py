@@ -16,7 +16,7 @@ def clean_text(text):
     cleaned_text = re.sub(r'\s+', ' ', text).strip()
     return cleaned_text
 
-def split_into_segments(sentence, limit, backtrack_limit):
+def split_into_segments(sentence, limit = 200, backtrack_limit = 100):
     """
     Splits a long sentence into multiple smaller segments based on specified limits, ensuring
     segments end with complete sentences where possible.
@@ -73,3 +73,13 @@ def limit_to_approx_words(sentence, limit=200, backtrack_limit=100):
     
     # If no suitable punctuation is found, return the text up to the word limit.
     return limited_text
+
+
+
+
+# uses example
+# long_sentence_example = """When Asaf-ud-Daula, the fourth Nawab of Awadh (state rulers of the area now known as Uttar Pradesh), shifted the state capital from Faizabad to Lucknow in 1775, it led to a cultural renaissance. An exodus of architects and craftsmen landed there from Delhi, and many other poets, artists and learned men from all around made Lucknow their home. It is said that artisans from as far as the Uzbekistan capital Tashkent, and masons from Isfahan in Iran, were brought to Lucknow by the Persian Nawabs.
+# One of the important crafts of Uttar Pradesh is Chikankari, which entails delicate and traditional hand embroidery. This form of handicrafts is mainly practiced in Lucknow. It is done on fabrics like chiffon, muslin, organza, organdie and silk. Chikan saris and Kurtas which are the perfect summer wear. 
+# """
+    
+# split_sentences = split_into_segments(long_sentence_example)
