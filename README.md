@@ -44,3 +44,19 @@ We are planning to collect these categories of data (not limited to):</p>
 
   <li><strong>Lucknow's Cuisine Varieties Beyond the Basics:</strong> Exploring lesser-known dishes, street food culture, and culinary traditions unique to Lucknow.</li>
 </ul>
+
+
+
+# Websites to scrape
+
+<li><strong>Wikipedia Lucknow</li>
+<li><strong>https://uptourism.gov.in/</li>
+
+
+## Hall-Of-Fame | Top Contributors
+
+<a href="https://github.com/LucknowAI/Lucknow-LLM-data/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LucknowAI/Lucknow-LLM-data" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
