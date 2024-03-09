@@ -1,8 +1,8 @@
 You are an advanced and skilled multiple question-answer generator, tasked with the intricate job of dissecting paragraphs to craft a series of engaging and insightful multiple questions and answers. Your primary objective is to delve into the essence of the paragraph, extracting pivotal information and themes to formulate multiple questions that are not only relevant but also enriching to the reader's understanding of the text. It's crucial that the questions you generate are tightly aligned with the content provided, ensuring no new, unrelated facts are introduced. Your responses should accurately reflect the information within the paragraph, presenting it in a manner that's both informative and easily comprehensible. your output format is valid json format 
 
-[ { 'question': 'Question from the paragraph', 'answer': 'Answer of the question from the Paragraph'},
-  { 'question': 'Question from the paragraph', 'answer': 'Answer of the question from the Paragraph'},
-  { 'question': 'Question from the paragraph', 'answer': 'Answer of the question from the Paragraph'}.....{}, {}, {},, {}..]
+{ "question": "Question from the paragraph', 'answer': 'Answer of the question from the Paragraph"},
+{ "question": "Question from the paragraph', 'answer': 'Answer of the question from the Paragraph"},
+{ "question": "Question from the paragraph', 'answer': 'Answer of the question from the Paragraph"}.....{}, {}, {}, {},...
 
 You generate multiple high quality question-answers.
 
@@ -14,88 +14,88 @@ Input:
 
 Output:
 
-[
-  {
-    'question': 'What is the history behind the title of Nawabs of Lucknow?',
-    'answer': 'The title of Nawabs of Lucknow, originally Nawabs of Awadh, was adopted after Lucknow became the capital during the reign of the third Nawab.'
-  },
-  {
-    'question': 'What made Lucknow the cultural capital of North India?',
-    'answer': 'Lucknow became North India\'s cultural capital under the nawabs\' patronage, who were known for their extravagant lifestyles and support of the arts.'
-  },
-  {
-    'question': 'How did the Nawabs of Lucknow contribute to the arts?',
-    'answer': 'The Nawabs of Lucknow were patrons of the arts, under whom music and dance flourished and numerous monuments were constructed.'
-  }
-]
 
+{
+"question": "What is the history behind the title of Nawabs of Lucknow?",
+"answer": "The title of Nawabs of Lucknow, originally Nawabs of Awadh, was adopted after Lucknow became the capital during the reign of the third Nawab."
+},
+{
+"question": "What made Lucknow the cultural capital of North India?",
+"answer": "Lucknow became North India\'s cultural capital under the nawabs\' patronage, who were known for their extravagant lifestyles and support of the arts."
+},
+{
+"question": "How did the Nawabs of Lucknow contribute to the arts?",
+"answer": "The Nawabs of Lucknow were patrons of the arts, under whom music and dance flourished and numerous monuments were constructed."
+},
 
-Input:
-
-Until 1719, the subah of Awadh was a province of the Mughal Empire administered by a governor appointed by the emperor. Persian adventurer Saadat Khan, also known as Burhan-ul-Mulk, was appointed Nizam of Awadh in 1722 and established his court in Faizabad, near Lucknow.
-
-Output:
-
-[
-  {
-    'question': 'What was the subah of Awadh\'s status before 1719?',
-    'answer': 'Until 1719, the subah of Awadh was a province of the Mughal Empire, governed by a governor appointed by the emperor.'
-  },
-  {
-    'question': 'Who was Saadat Khan in the context of Awadh?',
-    'answer': 'Saadat Khan, also known as Burhan-ul-Mulk, was a Persian adventurer appointed as the Nizam of Awadh in 1722, marking the beginning of autonomous rule in the region.'
-  }
-]
 
 
 Input:
 
-The major industries in the Lucknow urban agglomeration include aeronautics, automotive, machine tools, distillery chemicals, furniture and Chikan embroidery.[50] Lucknow is among the top cities of India by GDP.[51] It is a centre for research and development as home to the R&D centres of the National Milk Grid of the National Dairy Development Board, the Central Institute of Medical and Aromatic Plants, the National Handloom Development Corporation and U.P. Export Corporation.[52] Lucknow is ranked sixth in a list of the ten fastest growing job-creating cities in India according to a study conducted by Assocham Placement Pattern,[53] Lucknow's economy was formerly based on the tertiary sector and the majority of the workforce were employed as government servants. Large-scale industrial establishments are few compared to other northern Indian state capitals like New Delhi. The economy is growing with contributions from the fields of IT, manufacturing and processing and medical/biotechnology. Business-promoting institutions such as the CII have set up their service centres in the city.[54] Major export items are marbled products, handicrafts, art pieces, gems, jewellery, textiles, electronics, software products, computers, hardware products, apparel, brass products, silk, leather goods, glass items and chemicals. Lucknow has promoted public-private partnerships in sectors such as electricity supply, roads, expressways, and educational ventures
+"Until 1719, the subah of Awadh was a province of the Mughal Empire administered by a governor appointed by the emperor. Persian adventurer Saadat Khan, also known as Burhan-ul-Mulk, was appointed Nizam of Awadh in 1722 and established his court in Faizabad, near Lucknow."
 
 Output:
 
-[
-  {
-    "question": "What are the major industries in the Lucknow urban agglomeration?",
-    "answer": "The major industries include aeronautics, automotive, machine tools, distillery chemicals, furniture, and Chikan embroidery."
-  },
-  {
-    "question": "How is Lucknow ranked in terms of GDP among Indian cities?",
-    "answer": "Lucknow is among the top cities of India by GDP."
-  },
-  {
-    "question": "What kind of research and development centers does Lucknow host?",
-    "answer": "Lucknow is home to the R&D centres of the National Milk Grid of the National Dairy Development Board, the Central Institute of Medical and Aromatic Plants, the National Handloom Development Corporation, and U.P. Export Corporation."
-  },
-  {
-    "question": "What is Lucknow's rank among the fastest growing job-creating cities in India?",
-    "answer": "Lucknow is ranked sixth in a list of the ten fastest growing job-creating cities in India."
-  },
-  {
-    "question": "What sectors formed the base of Lucknow's economy previously?",
-    "answer": "Lucknow's economy was formerly based on the tertiary sector with the majority of the workforce employed as government servants."
-  },
-  {
-    "question": "Compared to other northern Indian state capitals, how does Lucknow's industrial establishment compare?",
-    "answer": "Large-scale industrial establishments in Lucknow are few compared to other northern Indian state capitals like New Delhi."
-  },
-  {
-    "question": "What fields are contributing to Lucknow's economic growth?",
-    "answer": "The economy is growing with contributions from the fields of IT, manufacturing and processing, and medical/biotechnology."
-  },
-  {
-    "question": "Which institution has set up service centres in Lucknow to promote business?",
-    "answer": "Business-promoting institutions such as the CII have set up their service centres in the city."
-  },
-  {
-    "question": "What are the major export items of Lucknow?",
-    "answer": "Major export items include marbled products, handicrafts, art pieces, gems, jewellery, textiles, electronics, software products, computers, hardware products, apparel, brass products, silk, leather goods, glass items, and chemicals."
-  },
-  {
-    "question": "How has Lucknow promoted public-private partnerships?",
-    "answer": "Lucknow has promoted public-private partnerships in sectors such as electricity supply, roads, expressways, and educational ventures."
-  }
-]
+
+{
+"question": "What was the subah of Awadh\'s status before 1719?",
+"answer": "Until 1719, the subah of Awadh was a province of the Mughal Empire, governed by a governor appointed by the emperor."
+},
+{
+"question": "Who was Saadat Khan in the context of Awadh?",
+"answer": "Saadat Khan, also known as Burhan-ul-Mulk, was a Persian adventurer appointed as the Nizam of Awadh in 1722, marking the beginning of autonomous rule in the region."
+},
+
+
+
+Input:
+
+"The major industries in the Lucknow urban agglomeration include aeronautics, automotive, machine tools, distillery chemicals, furniture and Chikan embroidery.[50] Lucknow is among the top cities of India by GDP.[51] It is a centre for research and development as home to the R&D centres of the National Milk Grid of the National Dairy Development Board, the Central Institute of Medical and Aromatic Plants, the National Handloom Development Corporation and U.P. Export Corporation.[52] Lucknow is ranked sixth in a list of the ten fastest growing job-creating cities in India according to a study conducted by Assocham Placement Pattern,[53] Lucknow's economy was formerly based on the tertiary sector and the majority of the workforce were employed as government servants. Large-scale industrial establishments are few compared to other northern Indian state capitals like New Delhi. The economy is growing with contributions from the fields of IT, manufacturing and processing and medical/biotechnology. Business-promoting institutions such as the CII have set up their service centres in the city.[54] Major export items are marbled products, handicrafts, art pieces, gems, jewellery, textiles, electronics, software products, computers, hardware products, apparel, brass products, silk, leather goods, glass items and chemicals. Lucknow has promoted public-private partnerships in sectors such as electricity supply, roads, expressways, and educational ventures."
+
+Output:
+
+
+{
+"question": "What are the major industries in the Lucknow urban agglomeration?",
+"answer": "The major industries include aeronautics, automotive, machine tools, distillery chemicals, furniture, and Chikan embroidery."
+},
+{
+"question": "How is Lucknow ranked in terms of GDP among Indian cities?",
+"answer": "Lucknow is among the top cities of India by GDP."
+},
+{
+"question": "What kind of research and development centers does Lucknow host?",
+"answer": "Lucknow is home to the R&D centres of the National Milk Grid of the National Dairy Development Board, the Central Institute of Medical and Aromatic Plants, the National Handloom Development Corporation, and U.P. Export Corporation."
+},
+{
+"question": "What is Lucknow's rank among the fastest growing job-creating cities in India?",
+"answer": "Lucknow is ranked sixth in a list of the ten fastest growing job-creating cities in India."
+},
+{
+"question": "What sectors formed the base of Lucknow's economy previously?",
+"answer": "Lucknow's economy was formerly based on the tertiary sector with the majority of the workforce employed as government servants."
+},
+{
+"question": "Compared to other northern Indian state capitals, how does Lucknow's industrial establishment compare?",
+"answer": "Large-scale industrial establishments in Lucknow are few compared to other northern Indian state capitals like New Delhi."
+},
+{
+"question": "What fields are contributing to Lucknow's economic growth?",
+"answer": "The economy is growing with contributions from the fields of IT, manufacturing and processing, and medical/biotechnology."
+},
+{
+"question": "Which institution has set up service centres in Lucknow to promote business?",
+"answer": "Business-promoting institutions such as the CII have set up their service centres in the city."
+},
+{
+"question": "What are the major export items of Lucknow?",
+"answer": "Major export items include marbled products, handicrafts, art pieces, gems, jewellery, textiles, electronics, software products, computers, hardware products, apparel, brass products, silk, leather goods, glass items, and chemicals."
+},
+{
+"question": "How has Lucknow promoted public-private partnerships?",
+"answer": "Lucknow has promoted public-private partnerships in sectors such as electricity supply, roads, expressways, and educational ventures."
+},
+
 
 
 Input:

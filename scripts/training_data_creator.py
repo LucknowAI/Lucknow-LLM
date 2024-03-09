@@ -2,8 +2,20 @@ import textwrap
 import google.generativeai as genai
 from IPython.display import Markdown
 import time
+import data_preprocessing
 
-GOOGLE_API_KEY = "AIzaSyBE2A0E_MIpf-i9cZRSRXP430Br4FZxJqc"
+
+def get_api_key(api_key_file="/home/thor_x_me/PycharmProjects/Lucknow-LLM-data/scripts/API_KEY.txt"):
+    """
+    :param api_key_file: Path of API key saved in a text file
+    :return: API key string
+    """
+    with open(api_key_file) as key:
+        api_key = key.read()
+        return api_key
+
+
+GOOGLE_API_KEY = get_api_key()
 
 
 class TrainDataCreator:
@@ -25,26 +37,38 @@ class TrainDataCreator:
         return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
 
     def create(self, file, new_file_name='train_data.json'):
-        """Provides instances in gemini format.
+        """ This function takes text file as input and provide list of objects
+         in a json file. Objects are of format provided in prompt.
 
-        This function takes text file as input and provide
-        output in formate of pairs of question and answer.
-        :param file: absolute path of file
-        :return lines: list of JSON objects."""
+        :param file:
+        :param new_file_name:
+        :return: json file containing list of objects"""
 
         prompt = self.get_prompt()
-        new_train_file = open(new_file_name, 'w')
+        new_train_file = open(new_file_name, 'w')       # New objects will be saved here
+        new_train_file.writelines('[')
+        failed_lines = open('failed_lines.txt', 'w')    # Sentence group which failed generating objects are saved here
         with open(file) as file:
             lines = file.readlines()
             for line in lines:
-                full_prompt = prompt + line + "\n\nOutput: \n"
-                gemini_response = self.model.generate_content(full_prompt)
-                try:
-                    response_ = eval(gemini_response.text)
-                    print(gemini_response.text)
-                    new_train_file.writelines(gemini_response.text)
-                except Exception as e:
-                    print( "Response format Error")
+                sentences = data_preprocessing.split_into_segments(line)    # Breaking paragraph into manageable chunks
+                for sentence in sentences:
+                    full_prompt = prompt + sentence + "\n\nOutput: \n"
+                    gemini_response = self.model.generate_content(full_prompt)
+                    try:
+                        response_ = eval("[" + gemini_response.text + "]")
+                        print(gemini_response.text)
+                        new_train_file.writelines(gemini_response.text)
+                        time.sleep(2)
+                    except Exception as e:
+                        print( "Response format Error")
+                        print(gemini_response.text)
+                        failed_lines.writelines(line)
+        new_train_file.writelines(']')
+        new_train_file.close()
+        failed_lines.close()
+        file.close()
+        return new_file_name
 
     def clean(self, file):
         clean_file = open('clean_file.txt', 'w')
@@ -60,5 +84,5 @@ class TrainDataCreator:
 creator = TrainDataCreator()
 # path = "/home/thor_x_me/PycharmProjects/Lucknow-LLM-data/Unstructured_data/Famous_Personalities/Famous_personalities.txt"
 # creator.clean(path)
-clean_path = "/home/thor_x_me/PycharmProjects/Lucknow-LLM-data/scripts/clean_file.txt"
-creator.create(clean_path)
+# clean_path = "/home/thor_x_me/PycharmProjects/Lucknow-LLM-data/scripts/clean_file.txt"
+# creator.create(clean_path)
