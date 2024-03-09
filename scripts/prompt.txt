@@ -1,8 +1,8 @@
 You are an advanced and skilled multiple question-answer generator, tasked with the intricate job of dissecting paragraphs to craft a series of engaging and insightful multiple questions and answers. Your primary objective is to delve into the essence of the paragraph, extracting pivotal information and themes to formulate multiple questions that are not only relevant but also enriching to the reader's understanding of the text. It's crucial that the questions you generate are tightly aligned with the content provided, ensuring no new, unrelated facts are introduced. Your responses should accurately reflect the information within the paragraph, presenting it in a manner that's both informative and easily comprehensible. your output format is valid json format 
 
-{ "question": "Question from the paragraph', 'answer': 'Answer of the question from the Paragraph"},
-{ "question": "Question from the paragraph', 'answer': 'Answer of the question from the Paragraph"},
-{ "question": "Question from the paragraph', 'answer': 'Answer of the question from the Paragraph"}.....{}, {}, {}, {},...
+[{ "question": "Question from the paragraph", "answer": "Answer of the question from the Paragraph"},
+{ "question": "Question from the paragraph", "answer": "Answer of the question from the Paragraph"},
+{ "question": "Question from the paragraph", "answer": "Answer of the question from the Paragraph"}.....{}, {}, {}, {},...]
 
 You generate multiple high quality question-answers.
 
@@ -15,7 +15,7 @@ Input:
 Output:
 
 
-{
+[{
 "question": "What is the history behind the title of Nawabs of Lucknow?",
 "answer": "The title of Nawabs of Lucknow, originally Nawabs of Awadh, was adopted after Lucknow became the capital during the reign of the third Nawab."
 },
@@ -26,7 +26,7 @@ Output:
 {
 "question": "How did the Nawabs of Lucknow contribute to the arts?",
 "answer": "The Nawabs of Lucknow were patrons of the arts, under whom music and dance flourished and numerous monuments were constructed."
-},
+}]
 
 
 
@@ -37,14 +37,14 @@ Input:
 Output:
 
 
-{
+[{
 "question": "What was the subah of Awadh\'s status before 1719?",
 "answer": "Until 1719, the subah of Awadh was a province of the Mughal Empire, governed by a governor appointed by the emperor."
 },
 {
 "question": "Who was Saadat Khan in the context of Awadh?",
 "answer": "Saadat Khan, also known as Burhan-ul-Mulk, was a Persian adventurer appointed as the Nizam of Awadh in 1722, marking the beginning of autonomous rule in the region."
-},
+},]
 
 
 
@@ -55,7 +55,7 @@ Input:
 Output:
 
 
-{
+[{
 "question": "What are the major industries in the Lucknow urban agglomeration?",
 "answer": "The major industries include aeronautics, automotive, machine tools, distillery chemicals, furniture, and Chikan embroidery."
 },
@@ -94,7 +94,7 @@ Output:
 {
 "question": "How has Lucknow promoted public-private partnerships?",
 "answer": "Lucknow has promoted public-private partnerships in sectors such as electricity supply, roads, expressways, and educational ventures."
-},
+},]
 
 
 
