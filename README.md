@@ -1,4 +1,25 @@
-<h1>Lucknow-LLM-data</h1>
+<h1>Lucknow-LLM</h1>
+
+## Quick tour
+
+How to get prompt
+
+```python
+from lucknowllm import get_prompt
+construct_prompt('raw_to_structured', "Hello world, This is input sentence")
+```
+
+How to convert raw data into structured data
+
+```python
+from lucknowllm import get_prompt
+from lucknowllm import GeminiModel
+
+Gemini = GeminiModel(api_key = "", model_name = "gemini-1.0-pro")
+
+llm_input    = construct_prompt('raw_to_structured', "Lucknow is the capital and the largest city of the Indian state of Uttar Pradesh and it is the administrative headquarters of the eponymous district and division.")
+model_output = Gemini.generate_content(llm_input)
+```
 
 ## Collecting data for Building Lucknow's first LLM
 
@@ -45,27 +66,6 @@ We are planning to collect these categories of data (not limited to):</p>
   <li><strong>Lucknow's Cuisine Varieties Beyond the Basics:</strong> Exploring lesser-known dishes, street food culture, and culinary traditions unique to Lucknow.</li>
 </ul>
 
-
-## Quick tour
-
-How to get prompt
-
-```python
-from lucknowllm import get_prompt
-construct_prompt('raw_to_structured', "Hello world, This is input sentence")
-```
-
-How to convert raw data into structured data
-
-```python
-from lucknowllm import get_prompt
-from lucknowllm import GeminiModel
-
-Gemini = GeminiModel(api_key = "", model_name = "gemini-1.0-pro")
-
-llm_input    = construct_prompt('raw_to_structured', "Lucknow is the capital and the largest city of the Indian state of Uttar Pradesh and it is the administrative headquarters of the eponymous district and division.")
-model_output = Gemini.generate_content(llm_input)
-```
 
 # Websites to scrape
 
