@@ -46,6 +46,15 @@ We are planning to collect these categories of data (not limited to):</p>
 </ul>
 
 
+## Quick tour
+
+How to get prompt
+
+```python
+from lucknowllm import get_prompt
+construct_prompt('raw_to_structured', "Hello world, This is input sentence")
+```
+
 
 # Websites to scrape
 
