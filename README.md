@@ -21,6 +21,16 @@ llm_input    = construct_prompt('raw_to_structured', "Lucknow is the capital and
 model_output = Gemini.generate_content(llm_input)
 ```
 
+How to segment long Paragraphs into smaller ones for the model input
+
+```python
+from lucknowllm import split_into_segments
+
+sentence = "Lucknow is the capital and the largest city of the Indian state of Uttar Pradesh and it is the administrative headquarters of the eponymous district and division."
+split_into_segments(sentence)
+```
+
+
 ## Collecting data for Building Lucknow's first LLM
 
 We are planning to collect these categories of data (not limited to):</p>
