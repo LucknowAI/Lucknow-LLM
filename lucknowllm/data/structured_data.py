@@ -19,7 +19,7 @@ class StructuredDataLoader:
         use across different environments without the need to hard-code the absolute path.
         """
         # Correctly determine the script's directory for consistent relative path resolution.
-        self.base_path = os.path.join(os.path.dirname(__file__), 'structured_data')
+        self.base_path = os.path.join(os.path.dirname(__file__), 'Structured_Data')
 
     def read_json_file(self, path):
         """
