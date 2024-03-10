@@ -10,9 +10,6 @@
   <a href="https://github.com/LucknowAI/Lucknow-LLM/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="Promptify is released under the Apache 2.0 license." />
   </a>
-  <a href="https://pypi.org/project/Lucknow-LLM/">
-    <img src="https://badge.fury.io/py/Lucknow-LLM.svg" alt="PyPI version" />
-  </a>
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="http://makeapullrequest.com" />
   </a>
