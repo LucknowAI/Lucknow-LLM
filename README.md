@@ -1,5 +1,28 @@
 <h1>Lucknow-LLM</h1>
 
+<p align="center">
+  <p align="center">Lucknow LLM
+</p>
+</p>
+
+ <h4 align="center">
+  <a href="https://github.com/LucknowAI/Lucknow-LLM/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="Promptify is released under the Apache 2.0 license." />
+  </a>
+  <a href="https://pypi.org/project/Lucknow-LLM/">
+    <img src="https://badge.fury.io/py/Lucknow-LLM.svg" alt="PyPI version" />
+  </a>
+  <a href="http://makeapullrequest.com">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="http://makeapullrequest.com" />
+  </a>
+  <a href="https://discord.gg/QKw67PDZUm">
+    <img src="https://img.shields.io/badge/Discord-Community-orange" alt="Community" />
+  </a>
+  <a href="https://github.com/LucknowAI/Lucknow-LLM/blob/main/notebooks/data_pipeline.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="colab" />
+  </a>
+</h4>
+
 ## Installation
 
 ### With pip
