@@ -1,33 +1,5 @@
 <h1>Lucknow-LLM</h1>
 
-<h2>Contributing to LucknowLLM</h2>
-
-<p>You can contribute in the following ways:</p>
-
-<h3>Collect Unstructured Data</h3>
-<p>Choose a topic from the list below and search for content related to Lucknow on the internet, books, newspapers, or wherever you can find relevant information. If the topic is not listed, you can create a new topic and contribute.</p>
-
-<h3>Contribute to the LucknowLLM Framework</h3>
-<p>You can help build the LucknowLLM framework by working on the data preprocessing pipeline, collecting data automatically using Selenium, website scrapers, etc. Write scripts for these tasks and contribute them, and provide tutorials for those scripts in the <code>tutorial</code> folder to make them easy to understand and use.</p>
-
-<h3>Review Dataset Quality</h3>
-<p>You can contribute as a reviewer to ensure the quality of the dataset. Go through existing datasets in <a href="https://github.com/LucknowAI/Lucknow-LLM/tree/main/lucknowllm/data/Unstructured_data">lucknowllm/data/Unstructured_data</a> and check their quality. If you find any biased, aggressive, religiously or politically biased, or sensitive information, you can remove it. This is also a valuable contribution to maintaining the quality of the datasets.</p>
-
-<h3>Contribute to Documentation</h3>
-<p>You can contribute to the documentation of the LucknowLLM framework. We can have a website like <a href="https://lucknowllm.readthedocs.io" target="_blank">lucknowllm.readthedocs.io</a> where users can understand how to use the framework. Check out <a href="https://about.readthedocs.com/?ref=readthedocs.com" target="_blank">https://about.readthedocs.com/?ref=readthedocs.com</a> for more information.</p>
-
-<h3>Improve the Lucknow AI Website</h3>
-<p>You can also work on improving the content of the Lucknow AI website. Check out <a href="https://github.com/LucknowAI/lucknowai.github.io" target="_blank">https://github.com/LucknowAI/lucknowai.github.io</a> for more details.</p>
-
-
-### How to Start? I'm New to GitHub
-
-- **Tutorial:** <a href="https://www.youtube.com/watch?v=2LOyAnFuw8Y" target="_blank">https://www.youtube.com/watch?v=2LOyAnFuw8Y</a>
-- **Create a GitHub profile.**
-- **Fork the repository.** Tutorial: <a href="https://www.youtube.com/watch?v=NZIsGcCtvzw" target="_blank">https://www.youtube.com/watch?v=NZIsGcCtvzw</a>
-- **Choose where you can contribute.** See the contribution guide above.
-- **Edit content in your forked repository and submit a pull request.** We'll review the request and merge it into the main branch.
-
 ## Installation
 
 ### With pip
@@ -81,7 +53,6 @@ loader.get_data('Cultural_Festival_of_Lucknow')
 loader.get_data('Cultural_Festival_of_Lucknow', 'Lucknow_Mahotsav.txt')
 ```
 
-
 How to load structured Data
 
 ```python
@@ -94,6 +65,34 @@ loader.get_data('Arts_and_Crafts')
 #if you want to load specific file
 loader.get_data('Arts_and_Crafts', 'Arts_and_Craft.json')
 ```
+
+<h2>Contributing to LucknowLLM</h2>
+
+<p>You can contribute in the following ways:</p>
+
+<h3>Collect Unstructured Data</h3>
+<p>Choose a topic from the list below and search for content related to Lucknow on the internet, books, newspapers, or wherever you can find relevant information. If the topic is not listed, you can create a new topic and contribute.</p>
+
+<h3>Contribute to the LucknowLLM Framework</h3>
+<p>You can help build the LucknowLLM framework by working on the data preprocessing pipeline, collecting data automatically using Selenium, website scrapers, etc. Write scripts for these tasks and contribute them, and provide tutorials for those scripts in the <code>tutorial</code> folder to make them easy to understand and use.</p>
+
+<h3>Review Dataset Quality</h3>
+<p>You can contribute as a reviewer to ensure the quality of the dataset. Go through existing datasets in <a href="https://github.com/LucknowAI/Lucknow-LLM/tree/main/lucknowllm/data/Unstructured_data">lucknowllm/data/Unstructured_data</a> and check their quality. If you find any biased, aggressive, religiously or politically biased, or sensitive information, you can remove it. This is also a valuable contribution to maintaining the quality of the datasets.</p>
+
+<h3>Contribute to Documentation</h3>
+<p>You can contribute to the documentation of the LucknowLLM framework. We can have a website like <a href="https://lucknowllm.readthedocs.io" target="_blank">lucknowllm.readthedocs.io</a> where users can understand how to use the framework. Check out <a href="https://about.readthedocs.com/?ref=readthedocs.com" target="_blank">https://about.readthedocs.com/?ref=readthedocs.com</a> for more information.</p>
+
+<h3>Improve the Lucknow AI Website</h3>
+<p>You can also work on improving the content of the Lucknow AI website. Check out <a href="https://github.com/LucknowAI/lucknowai.github.io" target="_blank">https://github.com/LucknowAI/lucknowai.github.io</a> for more details.</p>
+
+
+### How to Start? I'm New to GitHub
+
+- **Tutorial:** <a href="https://www.youtube.com/watch?v=2LOyAnFuw8Y" target="_blank">https://www.youtube.com/watch?v=2LOyAnFuw8Y</a>
+- **Create a GitHub profile.**
+- **Fork the repository.** Tutorial: <a href="https://www.youtube.com/watch?v=NZIsGcCtvzw" target="_blank">https://www.youtube.com/watch?v=NZIsGcCtvzw</a>
+- **Choose where you can contribute.** See the contribution guide above.
+- **Edit content in your forked repository and submit a pull request.** We'll review the request and merge it into the main branch.
 
 ## Collecting data for Building Lucknow's first LLM
 
