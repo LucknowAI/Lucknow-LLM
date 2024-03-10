@@ -15,7 +15,7 @@ pip3 install git+https://github.com/LucknowAI/Lucknow-LLM.git
 How to get prompt
 
 ```python
-from lucknowllm import get_prompt
+from lucknowllm import construct_prompt
 construct_prompt('raw_to_structured', "Hello world, This is input sentence")
 ```
 
