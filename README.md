@@ -28,8 +28,15 @@
 - **Choose where you can contribute.** See the contribution guide above.
 - **Edit content in your forked repository and submit a pull request.** We'll review the request and merge it into the main branch.
 
+## Installation
 
+### With pip
 
+You should install lucknowllm using Pip command
+
+```bash
+pip3 install git+https://github.com/LucknowAI/Lucknow-LLM.git
+```
 
 ## Quick tour of LucknowLLM Framework
 
