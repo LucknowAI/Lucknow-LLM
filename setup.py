@@ -6,6 +6,11 @@ setup(
     packages=find_packages(),
     description='llm for lucknow',
     long_description=open('README.md').read(),
-    author='Lucknow AI Labs Team',  # Your name
-    url='https://github.com/LucknowAI/Lucknow-LLM',  # URL to your package's repository
+    author='Lucknow AI Labs Team',
+    url='https://github.com/LucknowAI/Lucknow-LLM',
+    package_data={
+        '': ['*.txt', '*.md', '*.json'],  # Add other file types as needed.
+        'lucknowllm': ['data/*', 'data/*/*', 'data/*/*/*'],  # Assuming 'data' is directly inside the 'lucknowllm' package.
+    },
+    include_package_data=True,
 )
