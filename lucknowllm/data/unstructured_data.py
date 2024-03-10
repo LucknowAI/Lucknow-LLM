@@ -67,3 +67,18 @@ class UnstructuredDataLoader:
                     data.append({'file_name': filename, 'data': self.read_file(file_path)})
 
         return data
+
+
+
+# Example uses
+# loader = UnstructuredDataLoader()
+# # Example: Get data from a specific file
+# data = loader.get_data(folder_name='Cultural_Festival_of_Lucknow')
+# print(data)
+
+
+
+# loader = UnstructuredDataLoader()
+# # Example: Get data from a specific file
+# data = loader.get_data(folder_name='Cultural_Festival_of_Lucknow', file_name= 'General_combined_data.txt')
+# print(data)
