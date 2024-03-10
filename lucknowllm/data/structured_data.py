@@ -74,4 +74,4 @@ class StructuredDataLoader:
 # loader = StructuredDataLoader()
 # # Example: Get data from a specific file
 # data = loader.get_data(folder_name='Arts_and_Crafts', file_name= 'Facts.json')
-print(data)
+# print(data)
