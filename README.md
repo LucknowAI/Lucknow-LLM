@@ -61,6 +61,32 @@ sentence = "Lucknow is the capital and the largest city of the Indian state of U
 split_into_segments(sentence)
 ```
 
+How to load Unstructured Data
+
+```python
+from lucknowllm import UnstructuredDataLoader
+loader = UnstructuredDataLoader()
+
+# if you want to load all files in one folder
+loader.get_data('Cultural_Festival_of_Lucknow')
+
+#if you want to load specific file
+loader.get_data('Cultural_Festival_of_Lucknow', 'Lucknow_Mahotsav.txt')
+```
+
+
+How to load structured Data
+
+```python
+from lucknowllm import StructuredDataLoader
+loader = StructuredDataLoader()
+
+# if you want to load all files in one folder
+loader.get_data('Arts_and_Crafts')
+
+#if you want to load specific file
+loader.get_data('Arts_and_Crafts', 'Arts_and_Craft.json')
+```
 
 ## Collecting data for Building Lucknow's first LLM
 
